@@ -1,8 +1,27 @@
+# Calculator Web App (with Domain and Test driven development)
+
+This project was originally an entry test for XYZ company.
+
+This one was developed with Domain driven and Test driven in mind for reasons:
+- Domain driven will help us to separate business logic away from libraries and frameworks, which allows us to create and maintain complex, fast to implement, easy to change business requirement. This also provide a little bit help for the second arguments, separated logic is easier to test.
+- Test driven will help us to be confident during development (adding new feature and fixing bugs) without breaking previous implementation but also in deployment process.
+
+Project structure:
+ - Calculator state and logic will be on a separated directory (nothing related to React yet). Calculation logic was 100% coverage with unit test.
+ ![100% test coverage](https://raw.githubusercontent.com/quoctrungdh/calculator-web-app/master/Screen%20Shot%202020-02-27%20at%204.55.34%20PM.png)
+ - React only handle render state, handling and dispatch user events to calculator engine.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+This project also use Tailwindcss for quick and maintainable styling system.
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+To install all of the required dependencies for developement and building production app.
 
 ### `npm start`
 
@@ -16,6 +35,10 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br />
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `npm test:coverage`
+
+Launches the test runner in the interactive watch mode and generate test coverage report.
 
 ### `npm run build`
 
