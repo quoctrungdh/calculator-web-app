@@ -13,7 +13,7 @@ interface ICalculatorState {
     waitingFor2ndOperand: boolean;
 }
 
-const initialState: ICalculatorState = {
+export const initialState: ICalculatorState = {
     displayValue: '0',
     holderValue: null,
     operator: null,
