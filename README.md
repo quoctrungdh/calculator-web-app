@@ -15,6 +15,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This project also use Tailwindcss for quick and maintainable styling system.
 
+## Features
+Basic calculation operations when user clicks on the calculator buttons on the screen.
+
+User can input expression on from the keyboard.
+
 ## Available Scripts
 
 In the project directory, you can run:
